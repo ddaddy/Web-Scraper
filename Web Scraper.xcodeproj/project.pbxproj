@@ -8,18 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		623A80E42C22C30A0041F64B /* Web_ScraperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80E32C22C30A0041F64B /* Web_ScraperApp.swift */; };
-		623A80E62C22C30A0041F64B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80E52C22C30A0041F64B /* ContentView.swift */; };
 		623A80E82C22C30B0041F64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623A80E72C22C30B0041F64B /* Assets.xcassets */; };
 		623A80EC2C22C30B0041F64B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623A80EB2C22C30B0041F64B /* Preview Assets.xcassets */; };
+		623A80F32C22C3760041F64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80F22C22C3760041F64B /* AppDelegate.swift */; };
+		623A80F52C22C3DF0041F64B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80F42C22C3DF0041F64B /* MainView.swift */; };
+		623A80F72C22C4360041F64B /* PreviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80F62C22C4360041F64B /* PreviewScreen.swift */; };
+		623A80F92C22CADA0041F64B /* Comms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80F82C22CADA0041F64B /* Comms.swift */; };
+		623A80FB2C22CBEA0041F64B /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80FA2C22CBEA0041F64B /* Errors.swift */; };
+		623A80FD2C22D3930041F64B /* ScraperScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A80FC2C22D3930041F64B /* ScraperScreen.swift */; };
+		623A81002C231B330041F64B /* XlsxReaderWriter in Frameworks */ = {isa = PBXBuildFile; productRef = 623A80FF2C231B330041F64B /* XlsxReaderWriter */; };
+		623A81022C2417A90041F64B /* FileDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A81012C2417A90041F64B /* FileDropView.swift */; };
+		623A81042C2480570041F64B /* ProcessItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623A81032C2480570041F64B /* ProcessItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		623A80E02C22C30A0041F64B /* Web Scraper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Scraper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623A80E32C22C30A0041F64B /* Web_ScraperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_ScraperApp.swift; sourceTree = "<group>"; };
-		623A80E52C22C30A0041F64B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		623A80E72C22C30B0041F64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		623A80E92C22C30B0041F64B /* Web_Scraper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Web_Scraper.entitlements; sourceTree = "<group>"; };
 		623A80EB2C22C30B0041F64B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		623A80F22C22C3760041F64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		623A80F42C22C3DF0041F64B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		623A80F62C22C4360041F64B /* PreviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewScreen.swift; sourceTree = "<group>"; };
+		623A80F82C22CADA0041F64B /* Comms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comms.swift; sourceTree = "<group>"; };
+		623A80FA2C22CBEA0041F64B /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		623A80FC2C22D3930041F64B /* ScraperScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScraperScreen.swift; sourceTree = "<group>"; };
+		623A81012C2417A90041F64B /* FileDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDropView.swift; sourceTree = "<group>"; };
+		623A81032C2480570041F64B /* ProcessItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623A81002C231B330041F64B /* XlsxReaderWriter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +68,15 @@
 		623A80E22C22C30A0041F64B /* Web Scraper */ = {
 			isa = PBXGroup;
 			children = (
+				623A80F22C22C3760041F64B /* AppDelegate.swift */,
 				623A80E32C22C30A0041F64B /* Web_ScraperApp.swift */,
-				623A80E52C22C30A0041F64B /* ContentView.swift */,
+				623A80F42C22C3DF0041F64B /* MainView.swift */,
+				623A80FC2C22D3930041F64B /* ScraperScreen.swift */,
+				623A81012C2417A90041F64B /* FileDropView.swift */,
+				623A80F62C22C4360041F64B /* PreviewScreen.swift */,
+				623A81032C2480570041F64B /* ProcessItem.swift */,
+				623A80F82C22CADA0041F64B /* Comms.swift */,
+				623A80FA2C22CBEA0041F64B /* Errors.swift */,
 				623A80E72C22C30B0041F64B /* Assets.xcassets */,
 				623A80E92C22C30B0041F64B /* Web_Scraper.entitlements */,
 				623A80EA2C22C30B0041F64B /* Preview Content */,
@@ -85,6 +108,9 @@
 			dependencies = (
 			);
 			name = "Web Scraper";
+			packageProductDependencies = (
+				623A80FF2C231B330041F64B /* XlsxReaderWriter */,
+			);
 			productName = "Web Scraper";
 			productReference = 623A80E02C22C30A0041F64B /* Web Scraper.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +139,9 @@
 				Base,
 			);
 			mainGroup = 623A80D72C22C30A0041F64B;
+			packageReferences = (
+				623A80FE2C231B320041F64B /* XCRemoteSwiftPackageReference "XlsxReaderWriter" */,
+			);
 			productRefGroup = 623A80E12C22C30A0041F64B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623A80E62C22C30A0041F64B /* ContentView.swift in Sources */,
+				623A80F32C22C3760041F64B /* AppDelegate.swift in Sources */,
+				623A80F52C22C3DF0041F64B /* MainView.swift in Sources */,
+				623A80F92C22CADA0041F64B /* Comms.swift in Sources */,
 				623A80E42C22C30A0041F64B /* Web_ScraperApp.swift in Sources */,
+				623A81042C2480570041F64B /* ProcessItem.swift in Sources */,
+				623A80FD2C22D3930041F64B /* ScraperScreen.swift in Sources */,
+				623A81022C2417A90041F64B /* FileDropView.swift in Sources */,
+				623A80FB2C22CBEA0041F64B /* Errors.swift in Sources */,
+				623A80F72C22C4360041F64B /* PreviewScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +323,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dazboj.Web-Scraper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,7 +361,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dazboj.Web-Scraper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		623A80FE2C231B320041F64B /* XCRemoteSwiftPackageReference "XlsxReaderWriter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/charlymr/XlsxReaderWriter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		623A80FF2C231B330041F64B /* XlsxReaderWriter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 623A80FE2C231B320041F64B /* XCRemoteSwiftPackageReference "XlsxReaderWriter" */;
+			productName = XlsxReaderWriter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 623A80D82C22C30A0041F64B /* Project object */;
 }

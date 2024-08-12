@@ -1,0 +1,15 @@
+{
+  "originHash" : "c00d036254f2c70033ebdecdda1de30326d993a8a94720390a0364230195bbc2",
+  "pins" : [
+    {
+      "identity" : "xlsxreaderwriter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/charlymr/XlsxReaderWriter",
+      "state" : {
+        "revision" : "4571ad06b9fd12af61b7997f8fe55df1881fa1db",
+        "version" : "2.5.0"
+      }
+    }
+  ],
+  "version" : 3
+}
