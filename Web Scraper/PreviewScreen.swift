@@ -82,7 +82,7 @@ struct PreviewScreen: View {
         }
         
         do {
-            html = try await Comms().loadHTML(from: url) ?? ""
+            html = try await Comms().loadHTML(from: url)
         } catch {
             self.error = LocalizedAlertError(error: error)
         }
